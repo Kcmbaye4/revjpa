@@ -1,4 +1,4 @@
-  name: Deploy and my Spring App
+  name: Build and deploy my Spring App
   on:
     push:
       branches:
