@@ -1,0 +1,12 @@
+name: Deploy and my Spring App
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-deploy:
+    name: Deploy my Spring app
+    runs-on:
+    steps:
+      -name: Verification du code
+      uses:
