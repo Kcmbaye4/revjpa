@@ -6,7 +6,7 @@
   jobs:
     build-deploy:
       name: Deploy my Spring app
-      runs-on: ubuntu-latest
+      runs-on: 
       steps:
         - name: Verification du code
           uses: actions/checkout@v3
